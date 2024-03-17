@@ -2,6 +2,7 @@ import Login from "./Login"
 import Browse from "./Browse";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
+import AddCourt from "./AddCourt";
 
 
 
@@ -18,6 +19,10 @@ import { RouterProvider } from "react-router-dom";
         path: "/browse",
         element: <Browse />,
       },
+      {
+        path:"/addCourt",
+        element:<AddCourt/>
+      }
     ]);
   
   
